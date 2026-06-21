@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color:grey;
+        }
+        .container{
+            width: 300px;
+            margin: 30px auto;
+            padding: 10px;
+            background-color:rgb(159, 134, 115);
+            border: 1px solid #ccc;
+        }
+        h1,h2{
+            font-size: 20px;
+        }
+        button{
+            margin: 5px;
+            padding: 8px 12px;
+        }
+        ul{
+            list-style:  none;
+        }
+        li{
+            margin: 5px  0;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .hidden{
+            display: none;
+        }
+
+        li:hover{
+            background-color:rgb(108, 100, 100);
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <h1>Quiz App</h1>
+    <div id="quiz-container">
+        <div id="question-container" class="hidden">
+     <h2 id="question-text"></h2>
+     <ul id="choices-list">
+        <!--Choices will be added dynamically here-->
+     </ul>
+     <button id="next-btn" class="hidden">Next Question</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+        <button id="start-btn">Start Quiz</button>
+    </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
