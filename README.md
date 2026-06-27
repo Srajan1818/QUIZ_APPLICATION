@@ -34,4 +34,4 @@ This project was created to practice front-end web development concepts such as:
 
 ## 🌐 Live Demo
 
-👉 **[Click here to view the app](https://your-username.github.io/quiz-app/)**
+👉 **[Click here to view the app](https://srajan1818.github.io/QUIZ_APPLICATION/)**
