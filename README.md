@@ -1,4 +1,6 @@
 
+🧠 Quiz Application
+--
 A fun and interactive **Quiz Application** built with **HTML**, **CSS**, and **JavaScript** that tests your knowledge with multiple choice questions and tracks your score in real time.
 
 ---
